@@ -190,9 +190,9 @@ padding: 80px 0;
 /*---------------------------BOTTOM SECTION--------------------------*/
 .bottom>ul{
    display: flex;
-   justify-content: start;
+   justify-content: center;
    align-items: start;
-   margin-left: 120px;
+   margin-left: auto;
 }
 }
 @media (max-width:768px){
