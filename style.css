@@ -1,0 +1,205 @@
+.btn{
+    width: 100px;
+    height: 30px;
+  background: #75BF7A;
+}
+.header{
+ 
+  margin: auto;
+  margin-top: 80px;
+  background-color:  #75BF7A;
+ 
+  height: 120px;
+  padding: 40px;
+  color: aliceblue;
+}
+.header>ul>li{
+  list-style: none;
+}
+.header>ul{
+  display: flex;
+  justify-content: space-between;
+}
+li>input{
+  width: 400px;
+  padding: 10px;
+}
+.btn-dark {
+  width: 200px;
+  height: 40px;
+}
+/*--------------------------Bottom section--------------------------------*/
+.bottom{
+  margin-top: 90px;
+}
+.bottom>ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style:none;
+}
+.tere{
+  color: #75BF7A;
+}
+li>p{
+  color: #9E9DA2;
+}
+.bottom>ul>li{
+  padding: 10px;
+}
+
+
+/*------------------------------HOW  SECTION----------------------*/
+.step-box{
+  text-align: center;
+  padding: 20px;
+}
+.mt-4{
+  margin-top: 1.5rem;
+}
+.step-title{
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.step-text{
+  font-size: 14px;
+  color: #888;
+}
+/*-----------------------CENTER-------------------------*/
+.center-circle{
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: #75BF7A;
+}
+/*-------------------DOTS-------------------------*/
+.dots-section{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.dotactive{
+  background-color: #75BF7A;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #bbf7bb;
+}
+/*-------------------------------------------tere benefits section-------------------------*/
+.tere-benefits-section{
+  background: url(images/Group\ 3693.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+background-position: 20% 80%;
+background-attachment: fixed;
+padding: 80px 0;
+}
+.tere-title{
+  text-align: center;
+  font-weight: 900px;
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+.tere-title span{
+  color: #75BF7A;
+}
+.benefit-card{
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.tere-benefit-number{
+  font-size: 48px;
+  font-weight: 800;
+  color: #75BF7A;
+}
+.tere-benefit-title{
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.tere-benefit-text{
+   color: #888;
+   max-width: 350px;
+}
+.img-center{
+  text-align: center;
+}
+.benefit-img{
+  max-width: 100%;
+}
+/*--------------------------------------FOOOTER-----------------------------------------*/
+.footer-container{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.mt-5{
+  margin-top: 3rem;
+}
+.download-btn{
+  background-color: #000;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  gap: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+.footer-end{
+  margin-top: 30px;
+  font-size: 13px;
+  color: #75BF7A;
+}
+
+/*------------Responsive-----------------------------*/
+@media (max-width:1161px){
+  /*-------------------------------HEADER SECTION-------------------*/
+  .header>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .header{
+    margin-top: 90px;
+    margin-left: 90px;
+    width: 49%;
+    height: 180px;
+    padding: 10px;
+  }
+  li>input{
+  width: 300px;
+  padding: 10px;
+}
+/*---------------------------BOTTOM SECTION--------------------------*/
+.bottom>ul{
+   display: flex;
+   justify-content: start;
+   align-items: start;
+   margin-left: 120px;
+}
+}
+@media (max-width:768px){
+  .footer-container{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+ 
+}
